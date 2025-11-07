@@ -47,42 +47,44 @@ export default function Nosotros() {
           /* Mobile Responsive Styles */
           @media (max-width: 768px) {
             .nav-mobile {
-              padding: 15px 20px !important;
+              padding: 10px 15px !important;
               flex-direction: column !important;
-              gap: 20px !important;
+              gap: 15px !important;
             }
             .nav-links {
               display: flex !important;
-              gap: 20px !important;
+              gap: 15px !important;
               flex-wrap: wrap !important;
               justify-content: center !important;
+              font-size: 14px !important;
             }
             .hero-section-mobile {
               flex-direction: column !important;
-              padding: 40px 20px !important;
-              gap: 40px !important;
+              padding: 20px 15px !important;
+              gap: 25px !important;
               text-align: center !important;
             }
             .hero-title {
-              font-size: 36px !important;
+              font-size: 28px !important;
+              line-height: 1.2 !important;
             }
             .section-mobile {
-              padding: 40px 20px !important;
+              padding: 20px 15px !important;
             }
             .process-grid {
               grid-template-columns: 1fr !important;
-              gap: 30px !important;
+              gap: 20px !important;
             }
             .stats-grid {
               grid-template-columns: repeat(2, 1fr) !important;
-              gap: 20px !important;
+              gap: 15px !important;
             }
             .footer-mobile {
-              padding: 40px 20px 30px !important;
+              padding: 30px 15px 20px !important;
             }
             .footer-grid {
               grid-template-columns: 1fr !important;
-              gap: 30px !important;
+              gap: 20px !important;
             }
           }
         `
